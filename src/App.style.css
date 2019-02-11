@@ -1,0 +1,33 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1.5rem;
+}
+
+#wrapper, .BrainhubCarousel {
+  height: 100vh;
+  width: 100%;
+}
+
+#wrapper {
+  background-color: #f7f7f8;
+  color: #150940;
+  font-family: 'Helvetica';
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}

@@ -1,0 +1,84 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/e65e91a/
+#wrapper	src/App.style.css	/^#wrapper {$/;"	i
+#wrapper	src/App.style.css	/^#wrapper, .BrainhubCarousel {$/;"	i
+*	src/App.style.css	/^*, *:before, *:after {$/;"	s
+*:after	src/App.style.css	/^*, *:before, *:after {$/;"	s
+*:before	src/App.style.css	/^*, *:before, *:after {$/;"	s
+.BrainhubCarousel	src/App.style.css	/^#wrapper, .BrainhubCarousel {$/;"	c
+.carousel-arrow	src/Arrow/Arrow.style.css	/^.carousel-arrow {$/;"	c
+.carousel-arrow.left	src/Arrow/Arrow.style.css	/^.carousel-arrow.left {$/;"	c
+.carousel-arrow.left:hover	src/Arrow/Arrow.style.css	/^.carousel-arrow.left:hover,$/;"	c
+.carousel-arrow.right	src/Arrow/Arrow.style.css	/^.carousel-arrow.right {$/;"	c
+.carousel-arrow.right:hover	src/Arrow/Arrow.style.css	/^.carousel-arrow.right:hover {$/;"	c
+.carousel-slide	src/Slide/Slide.style.css	/^.carousel-slide {$/;"	c
+.carousel-slide.about .card	src/Slide/Slide.style.css	/^.carousel-slide.about .card {$/;"	c
+.carousel-slide.about .card img	src/Slide/Slide.style.css	/^.carousel-slide.about .card img {$/;"	s
+.carousel-slide.about .card-title	src/Slide/Slide.style.css	/^.carousel-slide.about .card-title {$/;"	c
+.carousel-slide.central	src/Slide/Slide.style.css	/^.carousel-slide.central {$/;"	c
+0	package.json	/^    ">0.2%",$/;"	s	array:browserslist
+0	public/manifest.json	/^    {$/;"	o	array:icons
+1	package.json	/^    "not dead",$/;"	s	array:browserslist
+2	package.json	/^    "not ie <= 11",$/;"	s	array:browserslist
+3	package.json	/^    "not op_mini all"$/;"	s	array:browserslist
+@brainhubeu/react-carousel	package.json	/^    "@brainhubeu\/react-carousel": "^1.10.12",$/;"	s	object:dependencies
+Advanced Configuration	README.md	/^### Advanced Configuration$/;"	S
+Analyzing the Bundle Size	README.md	/^### Analyzing the Bundle Size$/;"	S
+App	src/App.js	/^export default class App extends React.Component {$/;"	c
+Arrow	src/Arrow/Arrow.component.js	/^export default class Arrow extends React.PureComponent {$/;"	c
+Available Scripts	README.md	/^## Available Scripts$/;"	s
+Code Splitting	README.md	/^### Code Splitting$/;"	S
+Deployment	README.md	/^### Deployment$/;"	S
+Learn More	README.md	/^## Learn More$/;"	s
+Making a Progressive Web App	README.md	/^### Making a Progressive Web App$/;"	S
+SlideAbout	src/Slide/Styles/SlideAbout.component.js	/^export default class SlideAbout extends React.PureComponent {$/;"	c
+SlideStyle	src/Slide/Slide.component.js	/^  let SlideStyle$/;"	v
+SlideTitle	src/Slide/Styles/SlideTitle.component.js	/^export default class SlideTitle extends React.PureComponent {$/;"	c
+`npm run build`	README.md	/^### `npm run build`$/;"	S
+`npm run build` fails to minify	README.md	/^### `npm run build` fails to minify$/;"	S
+`npm run eject`	README.md	/^### `npm run eject`$/;"	S
+`npm start`	README.md	/^### `npm start`$/;"	S
+`npm test`	README.md	/^### `npm test`$/;"	S
+background_color	public/manifest.json	/^  "background_color": "#ffffff"$/;"	s
+browserslist	package.json	/^  "browserslist": [$/;"	a
+build	package.json	/^    "build": "react-scripts build",$/;"	s	object:scripts
+classnames	package.json	/^    "classnames": "^2.2.6",$/;"	s	object:dependencies
+componentDidMount	src/App.js	/^  componentDidMount() {$/;"	m	class:App
+componentWillUnmount	src/App.js	/^  componentWillUnmount() {$/;"	m	class:App
+constructor	src/App.js	/^  constructor() {$/;"	m	class:App
+dependencies	package.json	/^  "dependencies": {$/;"	o
+display	public/manifest.json	/^  "display": "standalone",$/;"	s
+eject	package.json	/^    "eject": "react-scripts eject"$/;"	s	object:scripts
+eslintConfig	package.json	/^  "eslintConfig": {$/;"	o
+extends	package.json	/^    "extends": "react-app"$/;"	s	object:eslintConfig
+h1	src/App.style.css	/^h1 {$/;"	s
+h2	src/App.style.css	/^h2 {$/;"	s
+h3	src/App.style.css	/^h3 {$/;"	s
+html	src/App.style.css	/^html {$/;"	s
+icons	public/manifest.json	/^  "icons": [$/;"	a
+name	package.json	/^  "name": "carousel-demo",$/;"	s
+name	public/manifest.json	/^  "name": "Create React App Sample",$/;"	s
+private	package.json	/^  "private": true,$/;"	b
+react	package.json	/^    "react": "^16.8.1",$/;"	s	object:dependencies
+react-dom	package.json	/^    "react-dom": "^16.8.1",$/;"	s	object:dependencies
+react-scripts	package.json	/^    "react-scripts": "2.1.4"$/;"	s	object:dependencies
+render	src/Arrow/Arrow.component.js	/^  render() {$/;"	m	class:Arrow
+render	src/Slide/Styles/SlideAbout.component.js	/^  render() {$/;"	m	class:SlideAbout
+render	src/Slide/Styles/SlideTitle.component.js	/^  render() {$/;"	m	class:SlideTitle
+scripts	package.json	/^  "scripts": {$/;"	o
+short_name	public/manifest.json	/^  "short_name": "React App",$/;"	s
+sizes	public/manifest.json	/^      "sizes": "64x64 32x32 24x24 16x16",$/;"	s	object:icons.0
+src	public/manifest.json	/^      "src": "favicon.ico",$/;"	s	object:icons.0
+start	package.json	/^    "start": "react-scripts start",$/;"	s	object:scripts
+start_url	public/manifest.json	/^  "start_url": ".",$/;"	s
+state	src/App.js	/^    this.state = { value: 0 };$/;"	c	class:App.constructor
+test	package.json	/^    "test": "react-scripts test",$/;"	s	object:scripts
+theme_color	public/manifest.json	/^  "theme_color": "#000000",$/;"	s
+type	public/manifest.json	/^      "type": "image\/x-icon"$/;"	s	object:icons.0
+value	src/App.js	/^    this.state = { value: 0 };$/;"	p	class:App.constructor.state
+version	package.json	/^  "version": "0.1.0",$/;"	s

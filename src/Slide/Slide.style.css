@@ -1,0 +1,30 @@
+.carousel-slide {
+  height: 100vh;
+  width: 100%;
+
+  max-width: 1000px;
+
+  padding: 6rem 2rem;
+  margin: auto;
+}
+
+.carousel-slide.central {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-slide.about .card {
+  display: flex;
+}
+
+.carousel-slide.about .card img {
+  height: 100%;
+  width: auto;
+  padding-right: 2rem;
+}
+
+.carousel-slide.about .card-title {
+  padding-bottom: 1rem;
+}
