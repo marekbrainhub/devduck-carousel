@@ -8,7 +8,7 @@ html {
   font-size: 1.5rem;
 }
 
-#wrapper, .BrainhubCarousel {
+#wrapper {
   height: 100vh;
   width: 100%;
 }
@@ -30,4 +30,8 @@ h2 {
 h3 {
   font-size: 1.3rem;
   font-weight: 400;
+}
+
+li {
+  padding: .5rem;
 }
