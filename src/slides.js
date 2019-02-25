@@ -8,6 +8,8 @@ import slickSize from './assets/slicksize.png';
 import carouselSize from './assets/carouselsize.png';
 import drakeNotNice from './assets/drakenotnice.png';
 import drakeNice from './assets/drakenice.png';
+import carouselGif from './assets/carousel.gif';
+import presentation from './assets/presentation.png';
 
 const carouselContainerStyle = {
   height: '200px',
@@ -44,7 +46,7 @@ export default [
     </ul>
   </Slide>,
   <Slide slideStyle='title' subtitle="so I guess we did change it a bit for the better" />,
-  <Slide slideStyle='regular' title="a bit of history...">
+  <Slide slideStyle='title' subtitle="a bit of history...">
     <ul>
       <li>we needed a carousel</li>
       <li>we googled 'react carousel'</li>
@@ -76,5 +78,97 @@ export default [
         &lt;/Carousel><br/ >
       </pre>
     </div>
+  </Slide>,
+
+  <Slide slideStyle='title' subtitle='wants'>
+    <ul>
+      <li>wants a library that does something specific</li>
+      <li>wants it for something simple</li>
+      <li>wants to throw it in into a project and forget about it</li>
+    </ul>
+  </Slide>,
+
+  <Slide slideStyle='title' subtitle='requirements'>
+    <ul>
+      <li>the name must be simple</li>
+      <li>the docs must be good</li>
+      <li>the size and dependencies must be small</li>
+    </ul>
+  </Slide>,
+
+  <Slide slideStyle='title' subtitle='end result'>
+    <ul>
+      <li>react-carousel</li>
+      <li>what you saw earlier is what's on the first page of the docs</li>
+      <li>11kB gzipped, 0 dependencies</li>
+    </ul>
+  </Slide>,
+
+  <Slide slideStyle='regular' title="power user">
+    <div style={{ width: '100%', textAlign: 'center', height: '500px' }}>
+      <img src={carouselGif} alt="carousel gif" style={{ height: '100%' }} />
+    </div>
+  </Slide>,
+
+  <Slide slideStyle='title' subtitle='wants'>
+    <ul>
+      <li>wants it to be a customisable</li>
+      <li>wants it for something very specific and probably complicated</li>
+      <li>will change to something else if your lib doesn't suit his needs</li>
+    </ul>
+  </Slide>,
+
+  <Slide slideStyle='title' subtitle='requirements'>
+    <ul>
+      <li>has to support different levels of complexity</li>
+      <li>readme has to be explcit about customization options</li>
+      <li>moving parts need the ability to be replaced</li>
+    </ul>
+  </Slide>,
+
+  <Slide slideStyle='title' subtitle='end result'>
+    <ul>
+      <li>four levels of complexity (none, default, visual, functional)</li>
+      <li>usage as controlled component is introduced very early</li>
+      <li>handlers for everything can be replaced</li>
+    </ul>
+  </Slide>,
+
+  <Slide slideStyle='regular' title="anarchist 🔥">
+    <div style={{ width: '100%', textAlign: 'center', height: '500px' }}>
+      <img src={presentation} alt="carousel gif" style={{ height: '100%' }} />
+    </div>
+  </Slide>,
+
+  <Slide slideStyle='title' subtitle='wants'>
+    <ul>
+      <li>wants to check edge cases</li>
+      <li>wants to use your approach for something different</li>
+      <li>likely will want to contribute</li>
+    </ul>
+  </Slide>,
+
+  <Slide slideStyle='title' subtitle='requirements'>
+    <ul>
+      <li>don't get in the way</li>
+      <li>don't prohibit 'undesirable' usage</li>
+      <li>make it easy to contribute</li>
+    </ul>
+  </Slide>,
+
+  <Slide slideStyle='title' subtitle='end result'>
+    <ul>
+      <li>you're looking at it :)</li>
+    </ul>
+  </Slide>,
+
+  <Slide slideStyle='title' title='thank you!'>
+    <p>
+      feedback? get in touch: marek@brainhub.pl
+    </p>
+
+    <p>
+      github.com/marekbrainhub/carousel-devduck
+    </p>
   </Slide>
 ]
